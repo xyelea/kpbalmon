@@ -1,0 +1,42 @@
+/* Tablet */
+@media (max-width: 1000px) {
+  .item {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .jumbotron h1 {
+    font-size: 32px;
+  }
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+/* Smartphone */
+@media (max-width: 670px) {
+  .jumbotron h1 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .jumbotron {
+    text-align: left;
+  }
+  nav li {
+    margin-right: 0px;
+  }
+  .heading h2 {
+    font-size: 20px;
+  }
+  .item {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  footer {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  footer p {
+    color: white;
+    font-size: 30px;
+  }
+}
